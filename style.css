@@ -1,0 +1,243 @@
+.front_page {
+    margin: 32px auto 0;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 1120px;
+}
+
+.card {
+    border-radius: 0%;
+    border-width: 0;
+}
+
+.red_link {
+    color: red;
+    text-decoration: none;
+}
+
+.footer_text1{
+    color:white;
+    font-size: small;
+}
+
+.footer_text2{
+    color:grey;
+    font-size: small;
+}
+
+#carousel_card{
+    width: 275px;
+    min-width: 275px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 3px;
+    font-size: small;
+}
+
+.provider_name{
+    color:grey;
+    font-size: small;
+}
+
+.red_link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.huff_nav {
+    background-color: black;
+}
+
+#head_ad{
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+}
+
+#huff_ad {
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    z-index: 1001;
+}
+
+#huff_sub_head {
+    max-height: 40px;
+    min-height: 40px;
+    top: 0;
+    height: 40px;
+    visibility: visible;
+    overflow: visible;
+    z-index: 1000;
+}
+
+#huff_head {
+    max-height: 50px;
+    min-height: 50px;
+}
+
+#huff_footer{
+    background-color: black;
+    height: 273px;
+
+}
+#ft_links{
+    height: 239px;
+    border-color: white;
+    color: white;
+}
+
+
+.white_link{
+    
+    color: white;
+}
+
+#offcanvasTop{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    overflow-y: scroll;
+}
+
+.huff_link {
+    color:#017a5a;
+    text-decoration: none;
+}
+
+#supp_form{
+    max-width: 570px;
+}
+
+.huff_link:hover {
+    color:#017a5a;
+    text-decoration: underline;
+}
+
+
+.ad_slot  {
+    
+    max-height: 300px;
+    min-height: 150px;
+}
+
+.sliding_ad{
+    top: 0;
+    height: fit-content;
+    visibility: visible;
+    overflow: visible;
+}
+
+#huff_banner {
+    max-height: 51px;
+    min-height: 51px;
+    background-color: #017a5a;
+}
+
+.big_left_card{
+    max-height: 200px;
+}
+
+.left_card{
+    max-height: 92px;
+}
+ 
+.text_paragraph{
+    max-width: 570px ;
+}
+
+#log_in{
+    font-size: small;
+}
+
+#log_in:hover{
+    color:#13ad87;
+}
+
+#supp_btn_large{
+    border-width: 0px;
+    background-color: #13ad87;
+    color: black ;
+    height: 38px;
+    font-size: small;
+    min-width: 85px;
+}
+#supp_btn{
+    border-width: 0px;
+    background-color: #13ad87;
+    color: black ;
+    height: 36px;
+    font-size: x-small;
+    min-width: 85px;
+}
+
+#huff_logo{
+    max-height: 22px;
+}
+
+.side_pages{
+    max-height: 950px;
+}
+
+#nav_logo {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#sub_head_nav {
+    max-width: 782px;
+    min-width: 782px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#us_link{
+    color:#13ad87;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: small;
+}
+#us_link:hover{
+    text-decoration-color:#13ad87;
+}
+
+#left_btn{
+    left: 0px;
+    z-index: 1002;
+}
+#right_btn{
+    right: 0px;
+    z-index: 1002;
+}
+
+#carousel{
+    width: min-content;
+    left: 0px;
+    height: 75px;
+}
+
+.section_text{
+    
+    font-size:large;
+}
+
+.slash{
+    color:#0064ff;
+}
+
+.sh_text{
+
+    font-size:small;
+    color: white;
+    text-decoration: none;
+}
+.sh_text:hover{
+
+    font-size:small;
+    color: white;
+    text-decoration: underline;
+}
