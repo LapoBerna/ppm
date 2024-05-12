@@ -7,6 +7,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="functions.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>HUFFPOST</title>
@@ -118,7 +119,6 @@
       </div>
     </div>
 
-
     <div id="huff_ad" class="navbar overflow-hidden p-0 huff_nav position-sticky justify-content-center">
 
       <div class="w-100 h-50">
@@ -183,6 +183,7 @@
         <img id="head_ad" src="https://placehold.co/970x250" alt="">
       </div>
     </div>
+
     <nav id="huff_head" class="navbar p-0 align-items-center huff_nav border-top border-bottom border-dark ">
       <button class="nav_left btn btn-link ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
         aria-controls="offcanvasTop">
@@ -200,6 +201,7 @@
 
       </div>
     </nav>
+
     <nav id="huff_sub_head" class="navbar p-0 justify-content-end huff_nav position-sticky text-light">
       <div id="sub_head_nav" class="d-flex justify-content-between flex-nowrap">
         <a class="d-flex sh_text flex-nowrap fw-bold" href="">NEWS</a>
@@ -213,7 +215,23 @@
       </div>
       <a id="us_link" class="me-3 fw-bold" href="#">U.S. Edition</a>
 
+      <a id="supp_link" class="me-3 fw-bold" href="#">Support Us</a>
+
+      <div id="scroll_left" class="position-absolute d-flex align-items-center">
+        <button class="nav_left btn btn-link " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+          aria-controls="offcanvasTop">
+          <img src="https://placehold.co/24x24" alt="">
+        </button>
+        <div id="scroll_logo1">
+          <img src="https://placehold.co/150x25" alt="">
+        </div>
+        <div id="scroll_logo2" class="d-none">
+          <img src="https://placehold.co/25x25" alt="">
+        </div>
+      </div>
+
     </nav>
+
     <div id="huff_banner">
 
     </div>
@@ -981,7 +999,9 @@
 
     <div id="huff_footer" class="">
       <div id="ft_links" class="row align-content-center border-bottom me-4 ms-4 pt-4 pb-4">
-        <img src="https://placehold.co/175x155" class="col-2" alt="">
+        <div class="col-2">
+          <img src="https://placehold.co/175x155" alt="">
+        </div>
         <div class="footer_text1 row col-4 fw-bold mt-3 ms-3">
           <div class="col-6">NEWS</div>
           <div class="col-6">VOICES</div>
@@ -1014,6 +1034,7 @@
         <div class="footer_text2">The Huffington Post</div>
       </div>
     </div>
+
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

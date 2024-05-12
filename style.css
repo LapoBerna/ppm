@@ -15,17 +15,17 @@
     text-decoration: none;
 }
 
-.footer_text1{
-    color:white;
+.footer_text1 {
+    color: white;
     font-size: small;
 }
 
-.footer_text2{
-    color:grey;
+.footer_text2 {
+    color: grey;
     font-size: small;
 }
 
-#carousel_card{
+#carousel_card {
     width: 275px;
     min-width: 275px;
     padding-right: 16px;
@@ -34,8 +34,8 @@
     font-size: small;
 }
 
-.provider_name{
-    color:grey;
+.provider_name {
+    color: grey;
     font-size: small;
 }
 
@@ -49,9 +49,9 @@
     background-color: black;
 }
 
-#head_ad{
-    max-width:100%;
-    max-height:100%;
+#head_ad {
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
 }
 
@@ -77,51 +77,52 @@
     min-height: 50px;
 }
 
-#huff_footer{
+#huff_footer {
     background-color: black;
     height: 273px;
 
 }
-#ft_links{
+
+#ft_links {
     height: 239px;
     border-color: white;
     color: white;
 }
 
 
-.white_link{
-    
+.white_link {
+
     color: white;
 }
 
-#offcanvasTop{
+#offcanvasTop {
     background-color: rgb(19, 19, 19);
     color: white;
     overflow-y: scroll;
 }
 
 .huff_link {
-    color:#017a5a;
+    color: #017a5a;
     text-decoration: none;
 }
 
-#supp_form{
+#supp_form {
     max-width: 570px;
 }
 
 .huff_link:hover {
-    color:#017a5a;
+    color: #017a5a;
     text-decoration: underline;
 }
 
 
-.ad_slot  {
-    
+.ad_slot {
+
     max-height: 300px;
     min-height: 150px;
 }
 
-.sliding_ad{
+.sliding_ad {
     top: 0;
     height: fit-content;
     visibility: visible;
@@ -134,48 +135,49 @@
     background-color: #017a5a;
 }
 
-.big_left_card{
+.big_left_card {
     max-height: 200px;
 }
 
-.left_card{
+.left_card {
     max-height: 92px;
 }
- 
-.text_paragraph{
-    max-width: 570px ;
+
+.text_paragraph {
+    max-width: 570px;
 }
 
-#log_in{
+#log_in {
     font-size: small;
 }
 
-#log_in:hover{
-    color:#13ad87;
+#log_in:hover {
+    color: #13ad87;
 }
 
-#supp_btn_large{
+#supp_btn_large {
     border-width: 0px;
     background-color: #13ad87;
-    color: black ;
+    color: black;
     height: 38px;
     font-size: small;
     min-width: 85px;
 }
-#supp_btn{
+
+#supp_btn {
     border-width: 0px;
     background-color: #13ad87;
-    color: black ;
+    color: black;
     height: 36px;
     font-size: x-small;
     min-width: 85px;
 }
 
-#huff_logo{
+#huff_logo {
     max-height: 22px;
 }
 
-.side_pages{
+.side_pages {
     max-height: 950px;
 }
 
@@ -186,6 +188,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 #sub_head_nav {
     max-width: 782px;
     min-width: 782px;
@@ -195,49 +198,72 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-#us_link{
-    color:#13ad87;
+
+#us_link {
+    color: #13ad87;
     text-decoration: underline;
     text-decoration-color: white;
     font-size: small;
 }
-#us_link:hover{
-    text-decoration-color:#13ad87;
+
+#supp_link {
+    color: #13ad87;
+    text-decoration: none;
+    font-size: small;
 }
 
-#left_btn{
+#supp_link:hover {
+    text-decoration: underline;
+    text-decoration-color: #13ad87;
+}
+
+#us_link:hover {
+    text-decoration-color: #13ad87;
+}
+
+#left_btn {
     left: 0px;
     z-index: 1002;
 }
-#right_btn{
+
+#right_btn {
     right: 0px;
     z-index: 1002;
 }
 
-#carousel{
+#carousel {
     width: min-content;
     left: 0px;
     height: 75px;
 }
 
-.section_text{
+
+#scroll_left {
+    left: 5px;
+
+    transition: opacity 1s linear;
     
-    font-size:large;
 }
 
-.slash{
-    color:#0064ff;
+.section_text {
+
+    font-size: large;
 }
 
-.sh_text{
+.slash {
+    color: #0064ff;
+}
 
-    font-size:small;
+.sh_text {
+
+    font-size: small;
     color: white;
     text-decoration: none;
 }
-.sh_text:hover{
 
-    font-size:small;
+.sh_text:hover {
+
+    font-size: small;
     color: white;
     text-decoration: underline;
 }
