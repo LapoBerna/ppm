@@ -135,26 +135,30 @@ $(function () {
 
   }
 
-  if ($(window).width() > 1250) {
+  if ($(window).width() > 1000) {
+
     $('#scroll_logo1').removeClass("d-none");
     $('#scroll_logo2').addClass("d-none");
   } else {
+      $('#scroll_logo1').addClass("d-none");
+      $('#scroll_logo2').removeClass("d-none");
+    if ($(window).width() < 360) {
+      //setup cwll view
+    }
 
-    $('#scroll_logo1').addClass("d-none");
-    $('#scroll_logo2').removeClass("d-none")
   }
 });
 
 $(window).on("resize", function () {
 
-  if ($(window).width() > 1250) {
+  if ($(window).width() > 1000) {
 
     $('#scroll_logo1').removeClass("d-none");
     $('#scroll_logo2').addClass("d-none");
   } else {
-    if ($(window).width() > 1000) {
       $('#scroll_logo1').addClass("d-none");
       $('#scroll_logo2').removeClass("d-none");
+    if ($(window).width() > 360) {
     }
 
   }
