@@ -14,6 +14,9 @@
     color: red;
     text-decoration: none;
 }
+.sector{
+    max-width: 763px;;
+}
 
 .footer_text1 {
     color: white;
@@ -136,9 +139,11 @@
 }
 
 .big_left_card {
-    max-height: 200px;
+    min-width: 300px;
 }
-
+.fop {
+    min-width: 85px;
+}
 .left_card {
     max-height: 92px;
 }
@@ -181,13 +186,15 @@
     max-height: 950px;
 }
 
-#nav_logo {
+#nav_logo1 {
     display: block;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 #sub_head_nav {
     max-width: 782px;
@@ -240,9 +247,6 @@
 
 #scroll_left {
     left: 5px;
-
-    transition: opacity 1s linear;
-    
 }
 
 .section_text {
@@ -259,6 +263,13 @@
     font-size: small;
     color: white;
     text-decoration: none;
+}
+
+.fit_div{
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .sh_text:hover {
