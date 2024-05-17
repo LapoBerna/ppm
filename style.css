@@ -198,7 +198,11 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
+#ft_img2 {
+    position: relative;
+    top: 45px;
+    left: -40px;
+}
 
 
 #sub_head_nav {
