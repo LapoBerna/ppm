@@ -143,6 +143,10 @@
     background-color: #017a5a;
 }
 
+.small_text{
+    font-size: x-small;
+}
+
 .big_left_card {
     min-width: 300px;
 }
@@ -199,8 +203,9 @@
     transform: translate(-50%, -50%);
 }
 #ft_img2 {
+    height: 0%;
     position: relative;
-    top: 45px;
+    top: 15px;
     left: -40px;
 }
 
