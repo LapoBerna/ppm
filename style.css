@@ -78,6 +78,11 @@
 #huff_head {
     max-height: 50px;
     min-height: 50px;
+    top: 0;
+    height: 40px;
+    visibility: visible;
+    overflow: visible;
+    z-index: 1000;
 }
 
 #huff_footer {
