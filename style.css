@@ -87,12 +87,12 @@
 
 #huff_footer {
     background-color: black;
-    height: 273px;
+    min-height: 273px;
 
 }
 
 #ft_links {
-    height: 239px;
+    min-height: 273px;
     border-color: white;
     color: white;
 }
@@ -148,8 +148,13 @@
 }
 
 .big_left_card {
-    min-width: 300px;
+    min-width: none;
 }
+
+.big_left_card_size {
+    min-width: 350px;
+}
+
 .fop {
     min-width: 85px;
 }
@@ -185,6 +190,7 @@
     height: 36px;
     font-size: x-small;
     min-width: 85px;
+    text-decoration: none;
 }
 
 #huff_logo {
@@ -205,7 +211,7 @@
 #ft_img2 {
     height: 0%;
     position: relative;
-    top: 15px;
+    top: 45px;
     left: -40px;
 }
 
